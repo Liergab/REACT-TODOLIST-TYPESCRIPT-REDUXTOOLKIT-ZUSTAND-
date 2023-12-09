@@ -1,8 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit";
-import todoListReducer from './slice/TodoSlice'
+import todoListReducer from './slice/TodoSlice';
+import inputUser from './slice/InputSlice'
 export const store = configureStore({
     reducer:{
-        todoList:todoListReducer
+        todoList:todoListReducer,
+        user:inputUser
     }
 })
 

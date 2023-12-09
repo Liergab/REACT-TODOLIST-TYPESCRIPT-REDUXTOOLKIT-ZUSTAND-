@@ -20,6 +20,8 @@ const Search = ({title}:{title:string}) => {
         setTodoList('');
       }
   }
+
+  console.log(todoListStorage)
   return (
     <>
     <h1>{title}</h1>

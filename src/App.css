@@ -57,3 +57,10 @@
 .save-button{
   background: lightseagreen ;
 }
+
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
